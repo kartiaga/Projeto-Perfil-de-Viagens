@@ -10,3 +10,18 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+@media (width <= 48em) {
+    main.container {
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
+        column-gap: 0;
+    }
+
+    main img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+}
